@@ -12,10 +12,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <About></About>
-            <Resume></Resume>
-            <Education></Education>
             <Projects></Projects> 
-            <ContactForm></ContactForm>  
         </div>
     );
 };

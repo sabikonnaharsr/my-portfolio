@@ -5,7 +5,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 
 const ContactForm = () => {
     return (
-        <div className='px-24 grid grid-cols-1 md:grid-cols-2 gap-x-14'>
+        <div className='px-24 grid grid-cols-1 md:grid-cols-2 gap-x-14 mt-20'>
             <div className='col-span-1'>
                 <h1 className='text-3xl font-semibold mb-5 text-gray-500'>Message</h1>
                 <form action="https://formsubmit.co/sabikonnahar.sr@gmail.com" method="POST" className='py-5'>
@@ -16,7 +16,7 @@ const ContactForm = () => {
                     </div>
                     <input type="text" name='_subject' placeholder="Subject" className="input input-border w-full bg-gray-50 mt-5" required />
                     <textarea name='message' rows='5' className="textarea textarea-bordered mt-5 bg-gray-50 w-full" placeholder="Message"></textarea>
-                    <input className='btn btn-success rounded-full text-slate-50 mt-5' type="submit" value="Send Message" />
+                    <input className='btn bg-slate-500 rounded-full text-slate-50 mt-5' type="submit" value="Send Message" />
                 </form>
             </div>
             <div className='col-span-1'>
