@@ -2,27 +2,27 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-const YoitDetails = () => {
+const ExploreKnowledgeDetails = () => {
 
     const projectImg = [
         {
             id: 1,
-            img: 'https://i.ibb.co/0YcrYbM/screencapture-bytecode-velocity-client-web-app-2022-12-11-19-27-01.png'
+            img: 'https://i.ibb.co/L1zYskp/screencapture-router-firebase-assignme-518f8-firebaseapp-2022-12-11-20-55-07.png'
         },
         {
             id: 2,
-            img: 'https://i.ibb.co/Rv06C9z/screencapture-bytecode-velocity-client-web-app-category-Page-637ff586345d495b7746d9f2-2022-12-11-20.png'
+            img: 'https://i.ibb.co/YQ99MMr/screencapture-router-firebase-assignme-518f8-firebaseapp-courses-2022-12-11-20-55-40.png'
         },
         {
             id: 3,
-            img: 'https://i.ibb.co/tLHk2sZ/screencapture-bytecode-velocity-client-web-app-product-Details-6382191bd7aab8b2f2dda040-2022-12-11-2.png'
+            img: 'https://i.ibb.co/5FNw9zL/screencapture-router-firebase-assignme-518f8-firebaseapp-single-Course-3-2022-12-11-20-56-15.png'
         },
     ]
 
     return (
         <div className='px-4 lg:px-24'>
-            <h2 className='text-4xl font-semibold text-center text-slate-500'>Yoit</h2>
-            <h1 className='text-3xl font-semibold text-slate-600 text-center mt-10 my-8'>I am going to little bit describe about my project.</h1> 
+             <h1 className='text-4xl font-semibold text-slate-600 text-center'>Explore Knowledge</h1>
+            <h1 className='text-3xl font-semibold text-slate-600 text-center mt-10 my-8'>I am going to little bit describe about my project.</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 mt-20'>
                 {
                     projectImg.map(image => <div
@@ -44,7 +44,7 @@ const YoitDetails = () => {
                         MongoDB.
                     </li>
                     <li className='list-disc text-slate-700'>
-                        Designed processes for dressUp and performance improvement this site
+                        Designed processes for books and performance improvement this site
                         and user friendly.
                     </li>
                     <li className='list-disc text-slate-700'>
@@ -53,7 +53,7 @@ const YoitDetails = () => {
                         MongoDB.
                     </li>
                     <li className='list-disc text-slate-700'>
-                        This site deploy in firebase and server site hoisting in vercel.
+                        Deployed in firebase and server site hoisting in vercel.
                         Fixed bugs from existing websites and implemented enhancements that
                         significantly improved web functionality and speed
                     </li>
@@ -61,13 +61,13 @@ const YoitDetails = () => {
                 <div>
                     <ul className='flex gap-x-5 my-8 '>
                         <li className=' hover:text-slate-700 text-2xl text-slate-600 font-semibold'>
-                            <a href='https://email-password-auth-953b5.web.app/' target='_blank'>Live Link</a>
+                            <a href='https://router-firebase-assignme-518f8.firebaseapp.com/' target='_blank'>Live Link</a>
                         </li>
                         <li className='text-2xl hover:text-slate-700 text-slate-600 font-semibold'>
-                            <a href='https://github.com/sabikonnaharsr' target='_blank'>Repository Link</a>
+                            <a href=' https://github.com/sabikonnaharsr/Explore-Knowledge-Client' target='_blank'>GitHub Client Link</a>
                         </li>
                         <li className='text-2xl hover:text-slate-700 font-semibold text-slate-600'>
-                            <a href='https://github.com/masudwebdeveloper/oldbazaar-client' target='_blank'>GitHub Client Link</a>
+                            <a href='https://github.com/sabikonnaharsr' target='_blank'>GitHub Link</a>
                         </li>
                     </ul>
                 </div>
@@ -83,4 +83,4 @@ const YoitDetails = () => {
     );
 };
 
-export default YoitDetails;
+export default ExploreKnowledgeDetails;

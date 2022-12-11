@@ -2,9 +2,12 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main";
 import About from "../../Pages/About/About";
 import ContactForm from "../../Pages/ContactForm/ContactForm";
+import ExploreKnowledgeDetails from "../../Pages/ExploreKnowledgeDetails/ExploreKnowledgeDetails";
 import Home from "../../Pages/Home/Home";
+import MotionTimesDetails from "../../Pages/MotionTimesDetails/MotionTimesDetails";
 import Projects from "../../Pages/Projects/Projects";
 import Resume from "../../Pages/Resume/Resume";
+import YoitDetails from "../../Pages/YoitDetails/YoitDetails";
 
 
 export const router = createBrowserRouter([
@@ -31,7 +34,23 @@ export const router = createBrowserRouter([
             {
                 path: "/contact",
                 element: <ContactForm></ContactForm>
-            }
+            },
+            {
+                path: "/yoitDetails",
+                element: <YoitDetails></YoitDetails>
+            },
+            {
+                path: "/exploreKnowledgeDetails",
+                element: <ExploreKnowledgeDetails></ExploreKnowledgeDetails>
+            },
+            {
+                path: "/motionTimesDetails",
+                element: <MotionTimesDetails></MotionTimesDetails>
+            },
+             {
+                path: "/projects/:id",
+                element: <Projects></Projects>
+             }
           
 
         ]
