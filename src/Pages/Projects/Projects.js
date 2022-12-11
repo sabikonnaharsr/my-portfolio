@@ -33,7 +33,8 @@ const Projects = () => {
 
 
   return (
-    <div className='lg:px-24 mt-20'>
+
+    <div className='px-4 lg:px-24 my-20'>
       <h1 className='text-slate-500 font-bold text-3xl my-20 text-center'>Here are my some of my projects</h1>
       <div className='mb-10'>
         <Swiper
@@ -53,6 +54,10 @@ const Projects = () => {
             768: {
               width: 768,
               slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50,
             },
           }}
           pagination={{ clickable: true }}

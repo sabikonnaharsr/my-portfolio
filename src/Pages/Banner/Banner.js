@@ -18,7 +18,7 @@ const Banner = () => {
             </div>
 
             <div className="lg:py-24">
-              <h2 className="text-3xl font-bold sm:text-6xl text-cyan-800">Sabikonnahar</h2>
+              <h2 className="text-2xl lg:text-3xl font-bold sm:text-6xl text-cyan-800">Sabikonnahar</h2>
               <TypeAnimation
                 sequence={[
                   'I am a Web Developer', // Types 'One'
@@ -33,7 +33,7 @@ const Banner = () => {
                 wrapper="div"
                 cursor={true}
                 repeat={Infinity}
-                style={{ fontSize: '2em', fontWeight: 500 }}
+                style={{ fontSize: '1em', fontWeight: 500 }}
               />
 
             </div>
