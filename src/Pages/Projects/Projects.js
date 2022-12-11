@@ -33,7 +33,7 @@ const Projects = () => {
 
 
   return (
-    <div className='lg:px-24 my-20'>
+    <div className='lg:px-24 mt-20'>
       <h1 className='text-slate-500 font-bold text-3xl my-20 text-center'>Here are my some of my projects</h1>
       <div className='mb-10'>
         <Swiper

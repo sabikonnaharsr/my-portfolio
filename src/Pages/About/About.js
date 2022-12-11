@@ -4,9 +4,9 @@ const About = () => {
     return (
         <div>
             <section>
-                <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+                <div className="mx-auto max-w-screen-xl px-4 lg:py-16 sm:px-6 sm:py-24 lg:px-8">
                     <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 h-[400px]">
-                        <div className="relative overflow-hidden sm:h-80 lg:h-full">
+                        <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
                             <img
                                 alt="Party"
                                 src="https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
