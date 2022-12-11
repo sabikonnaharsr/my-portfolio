@@ -16,7 +16,7 @@ const MyProjects = () => {
         },
         {
             id: 2,
-            img: "https://img.freepik.com/free-psd/thick-hardcover-book-cover-mockup_47987-3979.jpg?size=626&ext=jpg&ga=GA1.2.1510053171.1664396538&semt=sph",
+            img: "https://img.freepik.com/free-photo/beautiful-bride-white-dress-posing_1328-4132.jpg?w=996&t=st=1670780948~exp=1670781548~hmac=e3ce6a0a8d9d8db4105547366daa879d7afc3e2385c62de16f87ff1a584bba4d",
             projectName: "Motion Times",
             route: "/motionTimesDetails",
             liveLink: "https://sequel-extract.web.app/",
@@ -25,7 +25,7 @@ const MyProjects = () => {
         },
         {
             id: 3,
-            img: "https://img.freepik.com/free-photo/beautiful-bride-white-dress-posing_1328-4132.jpg?w=996&t=st=1670780948~exp=1670781548~hmac=e3ce6a0a8d9d8db4105547366daa879d7afc3e2385c62de16f87ff1a584bba4d",
+            img: "https://img.freepik.com/free-psd/thick-hardcover-book-cover-mockup_47987-3979.jpg?size=626&ext=jpg&ga=GA1.2.1510053171.1664396538&semt=sph",
             projectName: "Explore Knowledge",
             route: "/exploreKnowledgeDetails",
             liveLink: "https://router-firebase-assignme-518f8.firebaseapp.com/",
