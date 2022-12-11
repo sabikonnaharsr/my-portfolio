@@ -43,10 +43,22 @@ const Projects = () => {
             disableOnInteraction: false
 
           }}
+          breakpoints={{
+            // when window width is >= 640px
+            640: {
+              width: 640,
+              slidesPerView: 1,
+            },
+            // when window width is >= 768px
+            768: {
+              width: 768,
+              slidesPerView: 2,
+            },
+          }}
           pagination={{ clickable: true }}
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={50}
-          slidesPerView={3}
+          // slidesPerView={3}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
         >
