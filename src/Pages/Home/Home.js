@@ -5,15 +5,13 @@ import MyProjects from '../MyProjects/MyProjects';
 import Projects from '../Projects/Projects';
 
 
-
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
             <About></About>
             <Projects></Projects> 
-            <MyProjects></MyProjects>
-           
+            <MyProjects></MyProjects>    
         </div>
     );
 };
