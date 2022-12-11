@@ -47,10 +47,10 @@ export const router = createBrowserRouter([
                 path: "/motionTimesDetails",
                 element: <MotionTimesDetails></MotionTimesDetails>
             },
-             {
-                path: "/projects/:id",
-                element: <Projects></Projects>
-             }
+            //  {
+            //     path: "/projects/:id",
+            //     element: <Projects></Projects>
+            //  }
           
 
         ]
