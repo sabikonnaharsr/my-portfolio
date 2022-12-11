@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div>
       <section>
-        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-screen-xl px-4 lg:py-16 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div
               className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full"
@@ -18,7 +18,7 @@ const Banner = () => {
             </div>
 
             <div className="lg:py-24">
-              <h2 className="text-3xl font-bold sm:text-6xl text-cyan-800">Sabikonnahar</h2>
+              <h2 className="text-2xl lg:text-3xl font-bold sm:text-6xl text-cyan-800">Sabikonnahar</h2>
               <TypeAnimation
                 sequence={[
                   'I am a Web Developer', // Types 'One'
@@ -33,7 +33,7 @@ const Banner = () => {
                 wrapper="div"
                 cursor={true}
                 repeat={Infinity}
-                style={{ fontSize: '2em', fontWeight: 500 }}
+                style={{ fontSize: '1em', fontWeight: 500 }}
               />
 
             </div>

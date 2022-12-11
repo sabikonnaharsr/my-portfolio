@@ -34,7 +34,7 @@ const MyProjects = () => {
         }
     ]
     return (
-        <div>
+        <div className='px-4 lg:px-24'>
              <div className='grid gird-cols-1 lg:gird-cols-2 md:grid-cols-3 gap-4 mb-10'>
                 {
                     projectsData.map(projectData => <MyProject
