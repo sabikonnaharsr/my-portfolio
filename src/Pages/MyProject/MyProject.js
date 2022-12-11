@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const MyProject = ({projectData}) => {
-    const {img, liveLink, gitHubLink, serverLink, id, projectName} = projectData;
+    const {img, liveLink, gitHubLink, serverLink, route, id, projectName} = projectData;
 
     return (
         <div>
@@ -37,7 +37,7 @@ const MyProject = ({projectData}) => {
                       </div>
                      
                   </div>
-                  <Link to={`/projects/${id}`} class="mt-4 text-center font-medium">Read More</Link>
+                  <Link to={route} class="mt-4 text-center font-medium">Details</Link>
                 </div>
             </div>
             </a>
