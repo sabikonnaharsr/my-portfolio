@@ -136,7 +136,7 @@ const Particle = () => {
                     },
                     "retina_detect": true,
                     "background": {
-                        "color": "#C0C0C0",
+                        "color": "#4d4d4d",
                         "image": "",
                         "position": "50% 50%",
                         "repeat": "no-repeat",

@@ -35,7 +35,7 @@ const Projects = () => {
   return (
 
     <div className='px-4 lg:px-24 my-20'>
-      <h1 className='text-slate-500 font-bold text-3xl my-20 text-center'>Here are my some of my projects</h1>
+      <h1 className='text-slate-50 bg-gray-400 py-2 font-bold text-3xl my-20 text-center'>Here are some of my projects</h1>
       <div className='mb-10'>
         <Swiper
           loop={true}
@@ -77,10 +77,6 @@ const Projects = () => {
               />
 
               <div className="relative p-8">
-                {/* <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
-                            DFGH
-                          </p>
-                       */}
                 <p className="text-2xl font-bold text-white">{project.projectName}</p>
 
                 <div className="mt-64">
