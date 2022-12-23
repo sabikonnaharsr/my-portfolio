@@ -19,10 +19,10 @@ const About = () => {
                         </div>
 
                         <div class="lg:py-16">
-                            <h2 className="text-3xl mb-5 text-slate-500 font-bold sm:text-4xl">
+                            <h2 className="text-3xl mb-5 text-slate-900 font-bold sm:text-4xl">
                                 About Me
                             </h2>
-                            <article class="space-y-4 text-gray-600">
+                            <article class="space-y-4 text-gray-900">
                                 <p className='mb-10'>
                                     A programmer is someone who writes/creates Web Developer or applications by providing a specific programming language to the computer. Most programmers have extensive computing and coding experience in many varieties of programming languages and platforms, such as Structured Query Language, Extensible Markup Language XML, HTML
                                 </p>
