@@ -27,7 +27,7 @@ const About = () => {
                                     A programmer is someone who writes/creates Web Developer or applications by providing a specific programming language to the computer. Most programmers have extensive computing and coding experience in many varieties of programming languages and platforms, such as Structured Query Language, Extensible Markup Language XML, HTML
                                 </p>
                                 <div className='flex flex-col lg:flex-row gap-y-4 items-center justify-between lg:mr-14'>
-                                    <a target="_blank" href="https://drive.google.com/file/d/1lBFRM7SXJutRups90e6q2ZDFDHHH9ti1/view?usp=share_link"><button className='btn bg-slate-700 rounded-full'>Download Resume</button></a>
+                                    <a target="_blank" href="https://drive.google.com/file/d/1SA_Hev8EHVhEQKdwu1ZT08c8Dgn6uzUO/view?usp=share_link"><button className='btn bg-slate-700 rounded-full'>Download Resume</button></a>
                                     <div className='flex gap-x-8'>
                                         <a target="_blank" className='text-2xl hover:text-[#171515]' href="https://github.com/sabikonnaharsr"><FaGithub></FaGithub>
                                         </a>
